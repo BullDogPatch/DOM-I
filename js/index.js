@@ -65,3 +65,16 @@ for (i = 0; i < navItems.length; i++) {
 
 const h1Header = document.querySelector('.cta h1');
 h1Header.textContent = siteContent['cta']['h1'];
+
+const btn = document.querySelector('button');
+btn.textContent = siteContent['cta']['button'];
+
+const fourHeadings = document.querySelectorAll('.text-content h4');
+fourHeadings[0].textContent = siteContent['main-content']['features-h4'];
+fourHeadings[1].textContent = siteContent['main-content']['about-h4'];
+fourHeadings[2].textContent = siteContent['main-content']['services-h4'];
+fourHeadings[3].textContent = siteContent['main-content']['product-h4'];
+fourHeadings[4].textContent = siteContent['main-content']['vision-h4'];
+
+const mainImg = document.getElementById('middle-img');
+mainImg.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
