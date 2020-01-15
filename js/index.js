@@ -78,3 +78,10 @@ fourHeadings[4].textContent = siteContent['main-content']['vision-h4'];
 
 const mainImg = document.getElementById('middle-img');
 mainImg.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
+
+const mainPara = document.querySelectorAll('.text-content p');
+mainPara[0].textContent = siteContent['main-content']['features-content'];
+mainPara[1].textContent = siteContent['main-content']['about-content'];
+mainPara[2].textContent = siteContent['main-content']['services-content'];
+mainPara[3].textContent = siteContent['main-content']['product-content'];
+mainPara[4].textContent = siteContent['main-content']['vision-content'];
