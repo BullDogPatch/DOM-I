@@ -41,6 +41,11 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
+let headerImg = document.getElementById("cta-img");
+headerImg.setAttribute("src", "img/header-img.png")
+
+
+
 
 // navigation
 
@@ -55,3 +60,8 @@ navItems[5].textContent = siteContent['nav']['nav-item-6'];
 for (i = 0; i < navItems.length; i++) {
   navItems[i].style.color = "green";
 }
+
+// main
+
+const h1Header = document.querySelector('.cta h1');
+h1Header.textContent = siteContent['cta']['h1'];
