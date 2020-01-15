@@ -50,4 +50,8 @@ navItems[1].textContent = siteContent['nav']['nav-item-2'];
 navItems[2].textContent = siteContent['nav']['nav-item-3'];
 navItems[3].textContent = siteContent['nav']['nav-item-4'];
 navItems[4].textContent = siteContent['nav']['nav-item-5'];
-navItems[6].textContent = siteContent['nav']['nav-item-6'];
+navItems[5].textContent = siteContent['nav']['nav-item-6'];
+
+for (i = 0; i < navItems.length; i++) {
+  navItems[i].style.color = "green";
+}
